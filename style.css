@@ -1,3 +1,13 @@
 * {
   margin: 0px;
-  padding: 0px;}
+  padding: 0px;
+}
+
+body {
+  background-color: cornflowerblue;
+}
+
+#doggoAndTheChicks {
+  padding: 20px 20px;
+  background-color: beige;
+}
