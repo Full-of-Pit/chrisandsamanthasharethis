@@ -2,6 +2,10 @@
   margin: 0px;
   padding: 0px;
 }
+@font-face {
+  font-family: "Roboto";
+  src: url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+}
 
 #introduction {
   margin: 2% 2%;
@@ -66,4 +70,153 @@
   text-align: justify;
   margin: 5px 5px;
   padding: 5px 5px;
+}
+
+#colorsAndFonts {
+  margin: 15px 2%;
+  background-color: whitesmoke;
+  border: 2px goldenrod dotted;
+  border-radius: 5px;
+}
+#colorsIntro {
+  margin: 10px 10px 10px 10px;
+}
+#colorsIntro h3 {
+  padding-bottom: 10px;
+}
+
+#colors {
+  border-top: 1px grey solid;
+  border-bottom: 1px grey solid;
+}
+#colors h3 {
+  padding: 20px 20px 10px 20px;
+}
+#colors .paletteContainer {
+  display: flex;
+}
+.colorPalette {
+  margin: 1% auto;
+  width: 320px;
+  padding: 20px 20px;
+  border: 2px black solid;
+  border-radius: 5px;
+}
+
+#colors ul{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+#colors ul li {
+  border: 1px black solid;
+  border-radius: 3px;
+  height: 120px;
+  width: 60px;
+  writing-mode: vertical-lr;
+  text-orientation: sideways;
+  text-align: center;
+}
+  #blue_1 {
+    background-color: hsl(220, 100%, 30%);
+    color: hsl(220, 0%, 80%);
+  }
+  #blue_2 {
+    background-color: hsl(220, 100%, 45%);
+    color: hsl(220, 0%, 80%);
+  }
+  #blue_3 {
+    background-color: hsl(220, 100%, 60%);
+    color: hsl(220, 0%, 20%);
+  }
+  #blue_4 {
+    background-color: hsl(220, 100%, 75%);
+    color: hsl(220, 0%, 20%);
+  }
+  #blue_5 {
+    background-color: hsl(220, 100%, 90%);
+    color: hsl(220, 0%, 20%);
+  }
+
+  #orange_1 {
+    background-color: hsl(40, 100%, 50%);
+    color: hsl(220, 0%, 20%);
+  }
+  #orange_2 {
+    background-color: hsl(40, 100%, 45%);
+    color: hsl(220, 0%, 20%);
+  }
+  #orange_3 {
+    background-color: hsl(40, 100%, 40%);
+    color: hsl(220, 0%, 80%);
+  }
+  #orange_4 {
+    background-color: hsl(40, 100%, 35%);
+    color: hsl(220, 0%, 80%);
+  }
+  #orange_5 {
+    background-color: hsl(40, 100%, 30%);
+    color: hsl(220, 0%, 80%);
+  }
+
+
+#fonts h3 {
+  padding: 20px 20px 10px 20px;
+} 
+
+.fontContainer {
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px;
+  border: 1px black solid;
+  font-size: 20px;
+}
+
+#Roboto {
+  font-family: "Roboto", "Times New Roman";
+}
+#Roboto300 {
+  font-weight: 300;
+}
+#Roboto400 {
+  font-weight: 400;
+}
+#Roboto400i {
+  font-weight: 400;
+  font-style: italic;
+}
+#Roboto500 {
+  font-weight: 500;
+}
+#Roboto700 {
+  font-weight: 700;
+}
+#Roboto700i {
+  font-weight: 700;
+  font-style: italic;
+}
+
+#Merriweather {
+  font-family: "Merriweather Sans", "Times New Roman";
+}
+#Merriweather300 {
+  font-weight: 300;
+}
+#Merriweather400 {
+  font-weight: 400;
+}
+#Merriweather400i {
+  font-weight: 400;
+  font-style: italic;
+}
+#Merriweather500 {
+  font-weight: 500;
+}
+#Merriweather700 {
+  font-weight: 700;
+}
+#Merriweather700i {
+  font-weight: 700;
+  font-style: italic;
 }

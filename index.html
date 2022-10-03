@@ -5,21 +5,84 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300;0,400;0,500;0,700;1,400;1,700&display=swap" rel="stylesheet">
   <title>Woifey's Website</title>
 </head>
 
  
 <body>
-  <article id="introduction">
-    <h1>Woifey!</h1>
-    <p>Woifey, welcome to your very own website! Well, it is yours but doggo has absolute
-      autonomy over it... so it's also not yours. What a caffaffel! Don't get your pants
-      in a knick over that. 
-    </p>
-    <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
-  </article>  
+  <article id="colorsAndFonts">
+    <section id="colorsIntro">
+      <h3>Ahoy, Woifey-wife</h3>
+      <p>So, Codecademy wants me to do a little side project and it would actually fit here quite well (I think) <br>
+        The project is about picking a few colors, fonts and font-size settings etc., and writing a small website section for it
+        so you have all the specific settings on hand. I figured this was a good idea to add them here so you can also have a look
+        and for me to work on my skills.
+      </p>
+    </section>
     
-  
+    <!-- Colors -->
+    <section id="colors">
+    <h3>A possible design for a color palette (though a fairly simple one)</h3>
+    <div class="paletteContainer">
+      <div class="colorPalette">
+        <ul>
+          <li id="blue_1">H220,S100,L30</li>
+          <li id="blue_2">H220,S100,L45</li>
+          <li id="blue_3">H220,S100,L60</li>
+          <li id="blue_4">H220,S100,L75</li>
+          <li id="blue_5">H220,S100,L90</li>
+        </ul>
+        <p>Perhaps a nice blue</p>
+      </div>
+
+      <div class="colorPalette">
+        <ul>
+          <li id="orange_1">H40,S100,L50</li>
+          <li id="orange_2">H40,S100,L45</li>
+          <li id="orange_3">H40,S100,L40</li>
+          <li id="orange_4">H40,S100,L35</li>
+          <li id="orange_5">H40,S100,L30</li>
+        </ul>
+        <p>Perhaps a complementary orange</p>
+      </div>
+    </div>
+    </section>
+
+    <!-- Fonts -->
+    <section id="fonts">
+      <h3>These are some possible fonts</h3>
+      <div class="fontContainer">
+        <div class="fontExample" id="Roboto">
+          <p>I quite like this one, it's called "Roboto"</p>
+          <p> <br></p>
+          <p id="Roboto300">This is Roboto at weight 300</p>
+          <p id="Roboto400">This is Roboto at weight 400</p>
+          <p id="Roboto400i">This is Roboto at weight 400 and italic</p>
+          <p id="Roboto500">This is Roboto at weight 500</p>
+          <p id="Roboto700">This is Roboto at weight 700</p>
+          <p id="Roboto700i">This is Roboto at weight 700 and italic</p>
+        </div>
+      </div>
+
+      <div class="fontContainer">
+        <div class="fontExample" id="Merriweather">
+          <p>I also quite like this one, it's called "Merriweather Sans"</p>
+          <p> <br></p>
+          <p id="Merriweather300">This is Merriweather at weight 300</p>
+          <p id="Merriweather400">This is Merriweather at weight 400</p>
+          <p id="Merriweather400i">This is Merriweather at weight 400 and italic</p>
+          <p id="Merriweather500">This is Merriweather at weight 500</p>
+          <p id="Merriweather700">This is Merriweather at weight 700</p>
+          <p id="Merriweather700i">This is Merriweather at weight 700 and italic</p>
+        </div>
+      </div>
+    </section>
+  </article>
+
+
+
   <article id="doggoAndTheChicks">
     <h3>Hey ho, Woifey-o!</h3>
     <p>
@@ -37,7 +100,14 @@
     </section>
   </article>
 
-  
+  <article id="introduction">
+    <h1>Woifey!</h1>
+    <p>Woifey, welcome to your very own website! Well, it is yours but doggo has absolute
+      autonomy over it... so it's also not yours. What a caffaffel! Don't get your pants
+      in a knick over that. 
+    </p>
+    <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
+  </article>  
 </body>
  
 </html>
