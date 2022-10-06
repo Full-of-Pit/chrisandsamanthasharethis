@@ -16,46 +16,27 @@ article {
   background-color: hsl(192, 5%, 4%);
   color: seashell;
   font-family: "Roboto";
-  background-image: url("golden-firework.webp");
-  background-size: cover;
-  background-position: top;
-  background-repeat: no-repeat;
 }
 .articleIntro {
-  z-index: 1;
   margin: 25px auto;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 .articleIntro div{
-  border-radius: 15px;
-  max-width: 800px;
   padding: 10px 20px 10px 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
   border: 1px dotted goldenrod;
-  background-color: black;
-}
-.articleIntro img {
-  padding-top: 20px;
-  overflow-y: hidden;
-  width: 100%;
+
 }
 
 .articleIntro h3 {
   font-size: 32px;
   font-style: italic;
-  padding-bottom: 40px;
 }
-.videoWithHeader {
-  width: 700px;
-}
-.videoWithHeader iframe {
-  display:block;
-  padding-bottom: 20px;
-}
+
 
 
 
