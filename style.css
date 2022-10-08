@@ -6,10 +6,152 @@
   font-family: "Roboto";
   src: url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
 }
-/*  article birthday 06102022 */
+
 article {
   margin: 2% 2%;
 }
+
+/* article d07102022 On da Grid! */
+#d07102022 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: lightcoral;
+  border: 3px darkblue solid;
+  border-radius: 5px;
+
+  display: grid;
+  grid-template-rows: 40px 1fr 20px;
+  
+}
+
+#d07102022 div {
+  background-color: antiquewhite;
+  border-radius: 5px;
+}
+  #d07102022 header {
+    display: grid;
+    grid-template-columns: 33% 1fr 20%;
+    align-items: center;
+    border-bottom: 1px solid black;
+  }
+    #d07102022 h3 {
+      font-size: 32px;
+      text-align: center;
+      grid-column: 1 / span 1;
+    }
+    #d07102022 h5 {
+      text-align: center;
+      grid-column: 3 / span 1;
+    }
+  
+    #d07102022 footer {
+      padding-left: 10px;
+      font-size: 16px;
+      border-top: 1px solid black;
+    }
+
+    #d07102022 section {
+      display: grid;
+      grid-template-columns: 1fr repeat(4, 10fr) 1fr;
+      column-gap: 10px;
+      grid-template-rows: 1fr repeat(15, 2fr) 1fr;
+      row-gap: 10px;
+    }
+
+    #d07102022 .header {
+      border: 1px black solid;
+      font-size: 50px;
+      font-family: "Dancing Script";
+      padding-left: 15px;
+      grid-area: 2 / 2 / span 1 / span 3;
+    }
+    #d07102022 .mainText {
+      border: 1px black solid;
+      font-size: 20px;
+      text-align: justify;
+      justify-items: start;
+      align-items: start;
+      padding: 15px 15px;
+      grid-area: 3 / 2 / span 4 / span 3;
+    }
+
+    #d07102022 .gifContainer {
+      border: 1px black solid;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      max-height: 360px;
+      max-width: 300px;
+      font-style: italic;
+      box-shadow: 2px 2px grey;
+    }
+    /*#d07102022 .gif_cover {
+      background-color: antiquewhite;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }*/
+    #d07102022 .gif_cover img {
+      width: 25%;
+      height: 25%;
+    }
+    #d07102022 .gif_cover:hover {
+      opacity: 0;
+    }
+    #d07102022 .gifContainer img {
+      border: 1px black solid;
+      width: 90%;
+      height: 90%; 
+      margin: 10px 0;
+    }
+
+
+
+    #d07102022 .gif1 {
+      grid-area: 3 / 5 / span 4 / span 1;
+    }
+    #d07102022 .gif2 {
+      grid-area: 7 / 2 / span 4 / span 1;
+    }
+    #d07102022 .gif3 {
+      grid-area: 7 / 3 / span 4 / span 1;
+    }
+    #d07102022 .gif4 {
+      grid-area: 7 / 4 / span 4 / span 1;
+    }
+    #d07102022 .gif5 {
+      grid-area: 7 / 5 / span 4 / span 1;
+    }
+
+    #d07102022 .butContainer {
+      border: 1px black solid;
+    }
+    #d07102022 .but1 {
+      grid-area: 11 / 2 / span 2 / span 1;
+    }
+    #d07102022 .but2 {
+      grid-area: 11 / 3 / span 2 / span 1;
+    }
+    #d07102022 .but3 {
+      grid-area: 11 / 4 / span 2 / span 1;
+    }
+    #d07102022 .but4 {
+      grid-area: 11 / 5 / span 2 / span 1;
+    }
+
+    #d07102022 .conclusion {
+      border: 1px black solid;
+      grid-area: 13 / 2 / span 3 /span 4;
+    }
+
+
+
+
+
+
+
+
+/*  article birthday 06102022 */
 #d06102022 {
   border: 2px double gold;
   border-radius: 10px;
